@@ -1,0 +1,42 @@
+.container {
+
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+
+    article {
+
+        align-items: center;
+        border: 2px solid #EFEEEA;
+        border-radius: 5px;
+        display: flex;
+        height: 60vh;
+        justify-content: space-evenly;
+        width: 85%;
+
+        .perfil {
+
+            border: 2px solid #00AAFF;
+            border-radius: 50%;
+            width: 15vw;
+        }
+    }
+}
+
+.informacoes {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+
+    h3 {
+        color: #278733;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
