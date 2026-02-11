@@ -1,0 +1,17 @@
+.container {
+
+    .caixa {
+
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+
+            color: #205691;
+            margin: 0 0 10px 0;
+        }
+    }
+}
